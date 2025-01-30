@@ -16,7 +16,7 @@ if not os.path.exists(SAVE_FOLDER):
     os.makedirs(SAVE_FOLDER)
 
 # Load YOLO model
-MODEL_PATH = "yolo-Weights/ObjekV8.pt"
+MODEL_PATH = "ObjekV8.pt"
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError(f"Model file not found at {MODEL_PATH}")
 
